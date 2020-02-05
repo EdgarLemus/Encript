@@ -1,0 +1,33 @@
+
+Usquid:S4719W"9Replace charset name argument with StandardCharsets.UTF_8(›Ï¿ğüÿÿÿÿ
+gsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ïû‹²ùÿÿÿÿ
+Nsquid:S1135 "2Complete the task associated to this TODO comment.(“äïÿÿÿÿÿ
+bsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(Öï¹Í
+Isquid:S1135"2Complete the task associated to this TODO comment.(Ò¤è‹
+esquid:UnusedPrivateMethodK";Remove this unused private "desencriptarConModulus" method.(¿»©úûÿÿÿÿ
+Isquid:S1905V"-Remove this unnecessary cast to "PrivateKey".(æú¿şıÿÿÿÿ
+Psquid:S1481>"4Remove this unused "llavePublicaMua" local variable.(Í›Å¶ÿÿÿÿÿ
+_squid:S1854N"CRemove this useless assignment to local variable "llavePublicaMua".(Í›Å¶ÿÿÿÿÿ
+Psquid:S1854!"9Remove this useless assignment to local variable "plain".(½Â¨¾
+Usquid:S4719m"9Replace charset name argument with StandardCharsets.UTF_8(¥Ô›şÿÿÿÿ
+gsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(¸†ŞŒşÿÿÿÿ
+Psquid:S1481N"4Remove this unused "llavePublicaMua" local variable.(Í›Å¶ÿÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(ÙôÎ³
+gsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(˜°¤Öúÿÿÿÿ
+isquid:S1192A"MDefine a constant instead of duplicating this literal "PKCS1Padding" 4 times.(ëÔ„¸ûÿÿÿÿ
+msquid:UselessImportCheck"DRemove this unused import 'java.security.spec.RSAPrivateCrtKeySpec'.(ë¾û¢şÿÿÿÿ
+bsquid:S1192G"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(ªÍë ÿÿÿÿÿ
+Wsquid:S1854+"@Remove this useless assignment to local variable "llavePublica".(ø€½â
+Isquid:S1135%"2Complete the task associated to this TODO comment.(Öï¹Í
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(†……õüÿÿÿÿ
+O
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Ö¦Ò¼
+bsquid:UnusedPrivateMethod;"8Remove this unused private "encriptarConModulus" method.(¤ºà°úÿÿÿÿ
+Usquid:S4719G"9Replace charset name argument with StandardCharsets.UTF_8(ªÍë ÿÿÿÿÿ
+Ûsquid:S1192+"ÃDefine a constant instead of duplicating this literal "00f4849fcf14bb554fdc74e076e606e9807ce1cb3f840f53e3e2812a8a3358abc216999dbc08a19eeceee3690fdc6c4474f0da113ef69b08ab25aa98ace6462a461704e38613139e4d977356e25145ca0b67dc1d1cf5ab55c651129d7900d95d9d7d56c0672cecc8206a8f7851b0f1289c7b28c09159bef3c361f7416af078805a1b0b5f8d95a04e7777cc0c517e7714ce732124caa7e73fa2d22cb80f05417c94f9369839c446ae9feff715434001005f70d614b084619960c934eb1477abff7801d0f81294b9899489aa36ae1dcf63e1efffadbbe26aa931f2d503fefc1b834401b0504690925eb72c0ba9e3b111063bed78c727e16505918c895d9a945975fd" 3 times.(ø€½â
+Isquid:S1135"2Complete the task associated to this TODO comment.(à¡äÖ
+_squid:S1854>"CRemove this useless assignment to local variable "llavePublicaMua".(Í›Å¶ÿÿÿÿÿ
+Psquid:S4719a"9Replace charset name argument with StandardCharsets.UTF_8(ãÎâŞ
+bsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ñó‰‡
+Hsquid:S1905F",Remove this unnecessary cast to "PublicKey".(­–Óÿÿÿÿÿ

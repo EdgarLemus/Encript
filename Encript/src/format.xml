@@ -1,0 +1,430 @@
+
+2019-08-30 12:25:42,627 Successful execution of RSA analyzeRiskAPIBC -
+RegId:o44yQyVFC2Ef7N1ZZhrDe3l%2FUY8%3D elapsed time 1503
+2019-08-30
+12:25:42,627 REQUEST XML=<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<request2 xmlns="http://ws.csd.rsa.com">
+			<configurationHeader>
+				<instanceId>etdo</instanceId>
+			</configurationHeader>
+			<deviceRequest>
+				<deviceTokenCookie>otherId</deviceTokenCookie>
+				<ipAddress>181.1.31.55</ipAddress>
+				<deviceSpecific>
+					<mobile>
+						<otherId>otherId</otherId>
+						<mobileInfoSdk>{ &quot;sdkVersion&quot;: &quot;3.0.0&quot;,
+							&quot;rsaApplicationKey&quot;: &quot;c2a1694efc8686
+							d4fef71075e5a2b 591&quot;, &quot;emulator&quot;: 0,
+							&quot;compromised&quot;: 0, &quot;phoneNumber&quot;:
+							&quot;&quot;, &quot;timestamp&quot;:
+							&quot;2015-09-03t15:34:57z&quot;, &quot;geoLocation&quot;: {
+							&quot;geoLongitude&quot;:&quot;10&quot; ,
+							&quot;geoLattitude&quot;: &quot;5&quot;,
+							&quot;geoAltitudeAccuracy&quot;:
+							&quot;1&quot;},&quot;phoneName&quot;:&quot;androids_&quot;,
+							&quot;os&quot;: &quot;9.0&quot;}</mobileInfoSdk>
+					</mobile>
+				</deviceSpecific>
+			</deviceRequest>
+			<identificationData>
+				<orgName>Bancolombia_02</orgName>
+				<sessionId>Cfc0e+KF5Nmssy+r6GgzXurG6XM=</sessionId>
+				<userLanguage>ES</userLanguage>
+				<userName>o44yQyVFC2Ef7N1ZZhrDe3l%2FUY8%3D</userName>
+			</identificationData>
+			<messageHeader>
+				<apiType>DIRECT_SOAP_API</apiType>
+				<requestId>850049149470164</requestId>
+				<requestType>ANALYZE</requestType>
+				<timeStamp>20190830122541</timeStamp>
+				<version>6.5</version>
+			</messageHeader>
+			<securityHeader>
+				<callerCredential>XXXX</callerCredential>
+				<callerId>XXXX</callerId>
+				<method>PASSWORD</method>
+			</securityHeader>
+			<eventDataList>
+				<eventData>
+					<eventData>
+						<clientDefinedAttributeList>
+							<fact>
+								<fact>
+									<name>GENERICO1</name>
+									<value>782484582783897</value>
+								</fact>
+								<fact>
+									<name>GENERICO5</name>
+									<value>1040</value>
+								</fact>
+								<fact>
+									<name>Codigo de Aplicacion</name>
+									<value>MOBILEBC</value>
+								</fact>
+								<fact>
+									<name>Identificacion del Segmento</name>
+									<value>PERSONAS</value>
+								</fact>
+								<fact>
+									<name>Campo Generico1</name>
+									<value>850049149470164</value>
+								</fact>
+							</fact>
+						</clientDefinedAttributeList>
+						<clientDefinedEventType>INS_CUENTA</clientDefinedEventType>
+						<eventDescription>Inscripción de cuentas</eventDescription>
+						<eventType>ADD_PAYEE</eventType>
+						<transactionData>
+							<amount>
+								<amount>0</amount>
+								<currency>COP</currency>
+							</amount>
+							<myAccountData></myAccountData>
+							<otherAccountBankType>OTHER_BANK</otherAccountBankType>
+							<otherAccountData></otherAccountData>
+						</transactionData>
+					</eventData>
+				</eventData>
+			</eventDataList>
+			<channelIndicator>MOBILE</channelIndicator>
+			<userData>
+				<userNameData>
+					<nameLine>REDISENIO 09</nameLine>
+				</userNameData>
+			</userData>
+		</request2>
+	</soapenv:Body>
+</soapenv:Envelope>
+2019-08-30 12:25:42,627 RESPONSE XML=<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns0="http://ws.csd.rsa.com"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<env:Body>
+		<ns0:analyzeReturn xsi:type="ns0:AnalyzeResponse">
+			<ns0:identificationData>
+				<ns0:transactionId>etdo.bancolombia_02.942019083019254254227482860535</ns0:transactionId>
+			</ns0:identificationData>
+			<ns0:messageHeader>
+				<ns0:requestId>850049149470164</ns0:requestId>
+				<ns0:requestType>ANALYZE</ns0:requestType>
+				<ns0:timeStamp>20190830122541</ns0:timeStamp>
+				<ns0:version>6.5</ns0:version>
+			</ns0:messageHeader>
+			<ns0:statusHeader>
+				<ns0:statusCode>200</ns0:statusCode>
+			</ns0:statusHeader>
+			<ns0:riskResult>
+				<ns0:riskScore>3</ns0:riskScore>
+			</ns0:riskResult>
+		</ns0:analyzeReturn>
+	</env:Body>
+</env:Envelope>
+
+
+
+
+REQUEST XML=<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<request2 xmlns="http://ws.csd.rsa.com">
+			<configurationHeader>
+				<instanceId>etdo</instanceId>
+			</configurationHeader>
+			<deviceRequest>
+				<deviceTokenCookie>otherId</deviceTokenCookie>
+				<ipAddress>181.92.119.166</ipAddress>
+				<deviceSpecific>
+					<mobile>
+						<otherId>otherId</otherId>
+						<mobileInfoSdk>{ &quot;sdkVersion&quot;: &quot;3.0.0&quot;,
+							&quot;rsaApplicationKey&quot;: &quot;c2a1694efc8686
+							d4fef71075e5a2b 591&quot;, &quot;emulator&quot;: 0,
+							&quot;compromised&quot;: 0, &quot;phoneNumber&quot;:
+							&quot;&quot;, &quot;timestamp&quot;:
+							&quot;2015-09-03t15:34:57z&quot;, &quot;geoLocation&quot;: {
+							&quot;geoLongitude&quot;:&quot;10&quot; ,
+							&quot;geoLattitude&quot;: &quot;5&quot;,
+							&quot;geoAltitudeAccuracy&quot;:
+							&quot;1&quot;},&quot;phoneName&quot;:&quot;androids_&quot;,
+							&quot;os&quot;: &quot;9.0&quot;}</mobileInfoSdk>
+					</mobile>
+				</deviceSpecific>
+			</deviceRequest>
+			<identificationData>
+				<orgName>Bancolombia_02</orgName>
+				<sessionId>Si3XIrL9jjjyRvrKuKMa+oBUqIQ=</sessionId>
+				<userLanguage>ES</userLanguage>
+				<userName>Lbq4tnVhyxDpfwk8aDnlaArPKIU%3D</userName>
+			</identificationData>
+			<messageHeader>
+				<apiType>DIRECT_SOAP_API</apiType>
+				<requestId>727759261213873</requestId>
+				<requestType>ANALYZE</requestType>
+				<timeStamp>20190924094953</timeStamp>
+				<version>6.5</version>
+			</messageHeader>
+			<securityHeader>
+				<callerCredential>XXXX</callerCredential>
+				<callerId>XXXX</callerId>
+				<method>PASSWORD</method>
+			</securityHeader>
+			<eventDataList>
+				<eventData>
+					<eventData>
+						<clientDefinedAttributeList>
+							<fact>
+								<fact>
+									<name>GENERICO1</name>
+									<value>627278850902635</value>
+								</fact>
+								<fact>
+									<name>GENERICO5</name>
+									<value>0531</value>
+								</fact>
+								<fact>
+									<name>Codigo de Aplicacion</name>
+									<value>MOBILEBC</value>
+								</fact>
+								<fact>
+									<name>Identificacion del Segmento</name>
+									<value>PERSONAS</value>
+								</fact>
+								<fact>
+									<name>Campo Generico1</name>
+									<value>727759261213873</value>
+								</fact>
+							</fact>
+						</clientDefinedAttributeList>
+						<clientDefinedEventType>INS_CUENTA</clientDefinedEventType>
+						<eventDescription>Inscripción de cuentas</eventDescription>
+						<eventType>ADD_PAYEE</eventType>
+						<transactionData>
+							<amount>
+								<amount>0</amount>
+								<currency>COP</currency>
+							</amount>
+							<myAccountData></myAccountData>
+							<otherAccountBankType>SAME_BANK</otherAccountBankType>
+							<otherAccountData>
+								<accountNumber>0272000001529</accountNumber>
+								<accountType>FIDUCIARIES</accountType>
+							</otherAccountData>
+							<otherAccountType>PERSONAL_ACCOUNT</otherAccountType>
+						</transactionData>
+					</eventData>
+				</eventData>
+			</eventDataList>
+			<channelIndicator>MOBILE</channelIndicator>
+		</request2>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<request2 xmlns="http://ws.csd.rsa.com">
+			<configurationHeader>
+				<instanceId>etdo</instanceId>
+			</configurationHeader>
+			<deviceRequest>
+				<deviceTokenCookie>otherId</deviceTokenCookie>
+				<ipAddress>181.92.119.166</ipAddress>
+				<deviceSpecific>
+					<mobile>
+						<otherId>otherId</otherId>
+						<mobileInfoSdk>{ &quot;sdkVersion&quot;: &quot;3.0.0&quot;,
+							&quot;rsaApplicationKey&quot;: &quot;c2a1694efc8686
+							d4fef71075e5a2b 591&quot;, &quot;emulator&quot;: 0,
+							&quot;compromised&quot;: 0, &quot;phoneNumber&quot;:
+							&quot;&quot;, &quot;timestamp&quot;:
+							&quot;2015-09-03t15:34:57z&quot;, &quot;geoLocation&quot;: {
+							&quot;geoLongitude&quot;:&quot;10&quot; ,
+							&quot;geoLattitude&quot;: &quot;5&quot;,
+							&quot;geoAltitudeAccuracy&quot;:
+							&quot;1&quot;},&quot;phoneName&quot;:&quot;androids_&quot;,
+							&quot;os&quot;: &quot;9.0&quot;}</mobileInfoSdk>
+					</mobile>
+				</deviceSpecific>
+			</deviceRequest>
+			<identificationData>
+				<orgName>Bancolombia_02</orgName>
+				<sessionId>mAInR3Udd2wSpBlwfrr0DPwGNN4=</sessionId>
+				<userLanguage>ES</userLanguage>
+				<userName>Lbq4tnVhyxDpfwk8aDnlaArPKIU%3D</userName>
+			</identificationData>
+			<messageHeader>
+				<apiType>DIRECT_SOAP_API</apiType>
+				<requestId>602712921026936</requestId>
+				<requestType>ANALYZE</requestType>
+				<timeStamp>20190924103023</timeStamp>
+				<version>6.5</version>
+			</messageHeader>
+			<securityHeader>
+				<callerCredential>XXXX</callerCredential>
+				<callerId>XXXX</callerId>
+				<method>PASSWORD</method>
+			</securityHeader>
+			<eventDataList>
+				<eventData>
+					<eventData>
+						<clientDefinedAttributeList>
+							<fact>
+								<fact>
+									<name>GENERICO1</name>
+									<value>641057793822390</value>
+								</fact>
+								<fact>
+									<name>GENERICO5</name>
+									<value>0531</value>
+								</fact>
+								<fact>
+									<name>Codigo de Aplicacion</name>
+									<value>MOBILEBC</value>
+								</fact>
+								<fact>
+									<name>Identificacion del Segmento</name>
+									<value>PERSONAS</value>
+								</fact>
+								<fact>
+									<name>Campo Generico1</name>
+									<value>602712921026936</value>
+								</fact>
+							</fact>
+						</clientDefinedAttributeList>
+						<clientDefinedEventType>INS_CUENTA</clientDefinedEventType>
+						<eventDescription>Inscripción de cuentas</eventDescription>
+						<eventType>ADD_PAYEE</eventType>
+						<transactionData>
+							<amount>
+								<amount>0</amount>
+								<currency>COP</currency>
+							</amount>
+							<myAccountData></myAccountData>
+							<otherAccountBankType>SAME_BANK</otherAccountBankType>
+							<otherAccountData>
+								<accountNumber>0272000001529</accountNumber>
+								<accountType>FIDUCIARIES</accountType>
+							</otherAccountData>
+							<otherAccountType>PERSONAL_ACCOUNT</otherAccountType>
+						</transactionData>
+					</eventData>
+				</eventData>
+			</eventDataList>
+			<channelIndicator>MOBILE</channelIndicator>
+		</request2>
+	</soapenv:Body>
+</soapenv:Envelope>
+2019-09-24 10:30:24,003 RESPONSE XML=<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns0="http://ws.csd.rsa.com">
+
+
+
+	<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<soapenv:Body>
+			<request2 xmlns="http://ws.csd.rsa.com">
+				<configurationHeader>
+					<instanceId>etdo</instanceId>
+				</configurationHeader>
+				<deviceRequest>
+					<deviceTokenCookie>otherId</deviceTokenCookie>
+					<ipAddress>181.92.119.166</ipAddress>
+					<deviceSpecific>
+						<mobile>
+							<otherId>otherId</otherId>
+							<mobileInfoSdk>{ &quot;sdkVersion&quot;: &quot;3.0.0&quot;,
+								&quot;rsaApplicationKey&quot;: &quot;c2a1694efc8686
+								d4fef71075e5a2b 591&quot;, &quot;emulator&quot;: 0,
+								&quot;compromised&quot;: 0, &quot;phoneNumber&quot;:
+								&quot;&quot;, &quot;timestamp&quot;:
+								&quot;2015-09-03t15:34:57z&quot;, &quot;geoLocation&quot;: {
+								&quot;geoLongitude&quot;:&quot;10&quot; ,
+								&quot;geoLattitude&quot;: &quot;5&quot;,
+								&quot;geoAltitudeAccuracy&quot;:
+								&quot;1&quot;},&quot;phoneName&quot;:&quot;androids_&quot;,
+								&quot;os&quot;: &quot;9.0&quot;}</mobileInfoSdk>
+						</mobile>
+					</deviceSpecific>
+				</deviceRequest>
+				<identificationData>
+					<orgName>Bancolombia_02</orgName>
+					<sessionId>mAInR3Udd2wSpBlwfrr0DPwGNN4=</sessionId>
+					<userLanguage>ES</userLanguage>
+					<userName>Lbq4tnVhyxDpfwk8aDnlaArPKIU%3D</userName>
+				</identificationData>
+				<messageHeader>
+					<apiType>DIRECT_SOAP_API</apiType>
+					<requestId>602712921026936</requestId>
+					<requestType>ANALYZE</requestType>
+					<timeStamp>20190924103023</timeStamp>
+					<version>6.5</version>
+				</messageHeader>
+				<securityHeader>
+					<callerCredential>XXXX</callerCredential>
+					<callerId>XXXX</callerId>
+					<method>PASSWORD</method>
+				</securityHeader>
+				<eventDataList>
+					<eventData>
+						<eventData>
+							<clientDefinedAttributeList>
+								<fact>
+									<fact>
+										<name>GENERICO1</name>
+										<value>641057793822390</value>
+									</fact>
+									<fact>
+										<name>GENERICO5</name>
+										<value>0531</value>
+									</fact>
+									<fact>
+										<name>Codigo de Aplicacion</name>
+										<value>MOBILEBC</value>
+									</fact>
+									<fact>
+										<name>Identificacion del Segmento</name>
+										<value>PERSONAS</value>
+									</fact>
+									<fact>
+										<name>Campo Generico1</name>
+										<value>602712921026936</value>
+									</fact>
+								</fact>
+							</clientDefinedAttributeList>
+							<clientDefinedEventType>INS_CUENTA</clientDefinedEventType>
+							<eventDescription>Inscripción de cuentas</eventDescription>
+							<eventType>ADD_PAYEE</eventType>
+							<transactionData>
+								<amount>
+									<amount>0</amount>
+									<currency>COP</currency>
+								</amount>
+								<myAccountData></myAccountData>
+								<otherAccountBankType>SAME_BANK</otherAccountBankType>
+								<otherAccountData>
+									<accountNumber>0272000001529</accountNumber>
+									<accountType>FIDUCIARIES</accountType>
+								</otherAccountData>
+								<otherAccountType>PERSONAL_ACCOUNT</otherAccountType>
+							</transactionData>
+						</eventData>
+					</eventData>
+				</eventDataList>
+				<channelIndicator>MOBILE</channelIndicator>
+			</request2>
+		</soapenv:Body>
+	</soapenv:Envelope>
+	2019-09-24 10:30:24,003 RESPONSE XML=<?xml version="1.0" encoding="UTF-8"?>
+	<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns0="http://ws.csd.rsa.com">
+	
